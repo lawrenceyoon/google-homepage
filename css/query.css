@@ -1,0 +1,44 @@
+@media (max-height: 768px) {
+  main .logo {
+    margin-top: 150px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-height: 536px) {
+  main .logo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  main img {
+    width: 212px;
+  }
+}
+
+@media (max-width: 806px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  footer .left-side {
+    width: 100%;
+    justify-content: center;
+    order: 1;
+  }
+
+  footer .right-side {
+    width: 100%;
+    justify-content: center;
+    order: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 536px) {
+  nav {
+    font-size: 13px;
+  }
+}
